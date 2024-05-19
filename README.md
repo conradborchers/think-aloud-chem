@@ -4,7 +4,7 @@ Repository for peer review.
 
 ## Data availability and setup
 
-First, open the CMU Datashop dataset webpage in your browser.
+First, open the Datashop dataset webpage in your browser.
 
 https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=REDACTED
 
