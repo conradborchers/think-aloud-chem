@@ -6,7 +6,7 @@ Repository for peer review.
 
 First, open the CMU Datashop dataset webpage in your browser.
 
-https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=5371
+https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=REDACTED
 
 To access the datasets, you will need to request access with an account on DataShop. You can create an account using your Google or GitHub account, whichever is easiest.
 
