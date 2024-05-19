@@ -1,7 +1,7 @@
 library(tidyverse)
 library(lme4)
 
-generate_tutor_data <- function(f='ds1607_tx_All_Data_28_2023_0329_220524.txt') {
+generate_tutor_data <- function(f='dsREDACTED_tx_All_Data_28_2023_0329_220524.txt') {
   # Annotate relevant events
   d_tutor <- read_delim(f, delim='\t') %>% 
     janitor::clean_names() %>% 
@@ -51,10 +51,10 @@ generate_tutor_data <- function(f='ds1607_tx_All_Data_28_2023_0329_220524.txt') 
 }
 
 # Quantitative ITS log data analysis
-d_tutor_a <- generate_tutor_data('ds1606_tx_All_Data_27_2023_0901_220244.txt')
-d_tutor_b <- generate_tutor_data('ds1607_tx_All_Data_28_2023_0329_220524.txt')
+d_tutor_a <- generate_tutor_data('dsREDACTED_tx_All_Data_27_2023_0901_220244.txt')
+d_tutor_b <- generate_tutor_data('dsREDACTED_tx_All_Data_28_2023_0329_220524.txt')
 d_tutor_germany <- bind_rows(d_tutor_a, d_tutor_b) %>% mutate(sample='germany')
-d_tutor_usa <- generate_tutor_data('ds5371_tx_All_Data_7671_2023_0520_042939.txt') %>% mutate(sample='usa')
+d_tutor_usa <- generate_tutor_data('dsREDACTED_tx_All_Data_7671_2023_0520_042939.txt') %>% mutate(sample='usa')
 d_tutor <- bind_rows(d_tutor_usa %>% mutate(duration_sec=as.character(duration_sec)), d_tutor_germany)
 
 # Remove tutor actions in ORCCA
