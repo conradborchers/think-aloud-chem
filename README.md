@@ -1,12 +1,10 @@
-# think-aloud-chem
+# Stoichiometry Problem-Solving Strategies Between Germany and the USA
 
-Repository for peer review.
+Repository for manuscript "Problem-Solving Strategies in Stoichiometry Across Two Intelligent Tutoring Systems: A Cross-National Study."
 
 ## Data availability and setup
 
-First, open the Datashop dataset webpage in your browser.
-
-https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=REDACTED
+The log data stemming from student-tutor interactions during research activities in the United States are available at https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=5371
 
 To access the datasets, you will need to request access with an account on DataShop. You can create an account using your Google or GitHub account, whichever is easiest.
 
